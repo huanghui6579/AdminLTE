@@ -28,16 +28,15 @@
 			$(".navbar-custom ul.nav ul.dropdown-menu").css("margin-top","16px");
 	
 		}
-	});
-	
-	//scroll to top
-	$(window).scroll(function(){
+
+		//scroll to top
 		if ($(this).scrollTop() > 100) {
 			$('.scrollup').fadeIn();
 			} else {
 			$('.scrollup').fadeOut();
 		}
 	});
+	
 	$('.scrollup').click(function(){
 		$("html, body").animate({ scrollTop: 0 }, 1000);
 			return false;

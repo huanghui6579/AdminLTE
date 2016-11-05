@@ -922,6 +922,13 @@ Buttons
 	color: #4ACCD1;
 }	
 
+.center {
+  	width: auto;
+	display: table;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
 /* =======================
 Elements
 ========================== */
@@ -1337,15 +1344,18 @@ ul.social li {
 
 /* scroll to top */
 .scrollup{
-    position:fixed;
-	width:32px;
-	height:32px;
-    bottom:0px;
-    right:20px;
+   	position:fixed;
+	width:36px;
+	height:36px;
+    	bottom:20px;
+    	padding: 4px;
+    	right:20px;
 	background: #222;
--webkit-border-radius: 2px 2px 0 0;	
-	-moz-border-radius: 2px 2px 0 0;	
-	border-radius:  2px 2px 0 0;	
+	-webkit-border-radius: 2px;	
+	-moz-border-radius: 2px;	
+	border-radius:  2px ;	
+	z-index: 600;
+	display: none;
 }
 
 a.scrollup {
@@ -1358,7 +1368,7 @@ a.scrollup:hover,a.scrollup:active,a.scrollup:focus {
 	text-decoration:none;
 }
 a.scrollup i {
-	margin-top: 10px;
+	text-align: center;
 	color: #fff;
 }
 a.scrollup i:hover {
