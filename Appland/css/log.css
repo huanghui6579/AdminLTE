@@ -1,0 +1,116 @@
+/*时间轴*/
+
+.time-content {
+    min-height: 720px;
+    padding: 50px 0;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.time-wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+
+.time-main {
+	margin-top: 100px;
+}
+
+.time-line {
+	background: url("../img/log/line-bg.png") repeat-y 249px 0;
+}
+.time-title {
+	background: rgba(0, 0, 0, 0) url("../img/log/clock.png") no-repeat scroll left top;
+    color: #58a6fb;
+    font-size: 24px;
+    left: 230px;
+    line-height: 40px;
+    padding-left: 67px;
+    position: absolute;
+}
+
+.time-year {
+    position: relative;
+    z-index: 100;
+}
+
+.time-year h2 {
+    height: 40px;
+    width: 170px;
+    padding-right: 30px;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.time-year h2 a {
+    color: #58a6fb;
+}
+
+.fa-arrow{
+    display:block;
+    position:relative;
+    height:0;
+    width:0;
+    left:190px;
+    top:-20px;
+    border-width:6px;
+    border-style:solid;
+    border-color:#59a7fb transparent transparent transparent;
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+    transition:.5s;
+    -webkit-transform-origin:6px 3px;
+    -moz-transform-origin:6px 3px;
+    -ms-transform-origin:6px 3px;
+    -o-transform-origin:6px 3px;
+    transform-origin:6px 3px
+}
+
+.time-year .list{
+    margin:10px 0;
+    position:relative;
+    overflow:hidden;
+    -webkit-transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+    -moz-transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+    -ms-transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+    -o-transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+    transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s
+}
+
+.time-cls {
+    zoom: 1;
+}
+.time-cls:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.time-year .list ul li.highlight .highlight-text {
+    color: #ec6a13;
+}
+
+.time-year .list ul li .date, .time-year .list ul li .version {
+    float:left;
+    display:block;
+    clear:left;
+    width:200px;
+    line-height:24px;
+    text-align:right
+}
+
+.time-year  .list ul li .intro, .time-year .list ul li .more{
+    float: left;
+    display: block;
+    width: 400px;
+    margin-left: 100px;
+    line-height: 24px;
+}
+/*时间轴结束*/
