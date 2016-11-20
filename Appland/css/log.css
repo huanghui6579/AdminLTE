@@ -60,7 +60,6 @@ div,form,input,textarea,p,ul,li,dl,dt,dd,h1,table,h2 {
     padding-left:  67px ;
     left: 230px;
     top: 0;
-    color: #58a6fb;
     font-size: 24px;
     background: #fff;
     /*background: url("../img/log/clock.png") no-repeat left top;*/
@@ -88,9 +87,6 @@ div,form,input,textarea,p,ul,li,dl,dt,dd,h1,table,h2 {
     font-size: 24px;
     line-height: 40px;
     text-align: right;
-}
-.content .main .year h2 a {
-    color: #58a6fb;
 }
 
 .fa-arrow{
